@@ -1,4 +1,5 @@
 # Image-Noise-Reduction-Auto-encoders
+Image Noise Reduction with Auto-encoders using Tensorflow \
 Task 1: Introduction
 
 We will import the libraries and helper functions that we will need during the course of this project. We will also understand a little bit about the Rhyme interface and pre-requisites for this project. 
