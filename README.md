@@ -2,7 +2,7 @@
 Image Noise Reduction with Auto-encoders using Tensorflow \
 Task 1: Introduction
 
-We will import the libraries and helper functions that we will need during the course of this project. We will also understand a little bit about the Rhyme interface and pre-requisites for this project. 
+We will import the libraries and helper functions that we will need during the course of this project. 
 
 Task 2: Data Pre-processing \
 For this project, we are using the popular MNIST data-set. This data-set has 60,000 examples of images of handwritten digits in the training set and 10,000 examples in the test set. The examples are black and white images of 28x28. As in, 28 rows and 28 columns for each example. The labels are simply digits corresponding to the 10 classes from 0 to 9. We will create two neural network models in this project - one will be trained to perform classification of these handwritten digits. And another model will be used to de-noise input data. This is our Auto-encoder. Eventually, we will connect the two models together and have them work in conjunction as a single, composite model. In order to input the examples to our two models, we will do a little bit of processing on them.
